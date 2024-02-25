@@ -1,7 +1,7 @@
 package br.com.ero.servidopublico.model;
 
 public record ServidorPublico(
-        long matricula,
+        Long matricula,
         String nome,
         String foto,
         String orgao,
