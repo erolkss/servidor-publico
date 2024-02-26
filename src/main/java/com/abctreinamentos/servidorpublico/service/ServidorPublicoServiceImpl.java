@@ -1,14 +1,13 @@
 package com.abctreinamentos.servidorpublico.service;
 
-import java.io.InputStream;
-import java.util.List;
-import java.util.Optional;
-
-import org.springframework.stereotype.Service;
-
 import com.abctreinamentos.servidorpublico.model.ServidorPublico;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.stereotype.Service;
+
+import java.io.InputStream;
+import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ServidorPublicoServiceImpl implements ServidorPublicoService {
